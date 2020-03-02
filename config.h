@@ -7,6 +7,7 @@
  */
 static char *font = "Fira Code:pixelsize=10:antialias=true:autohint=true";
 static int borderpx = 4;
+
 /*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
