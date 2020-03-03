@@ -204,6 +204,7 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_Home,        zoomreset,      {.f =  0} },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	{ MODKEY,               XK_c,           clipcopy,       {.i =  0} },
 	{ MODKEY,               XK_v,           clippaste,      {.i =  0} },
 	{ MODKEY,               XK_Y,           selpaste,       {.i =  0} },
@@ -216,6 +217,8 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_o,           externalpipe,   {.v = openurlcmd } },
 	{ MODKEY,               XK_p,           externalpipe,   {.v = copyurlcmd } },
 =======
+=======
+>>>>>>> b526a26 (Clipboard suport)
 	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
 	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
@@ -223,6 +226,7 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
         { MODKEY,               XK_K,           kscrollup,      {.i = -1} },
         { MODKEY,               XK_J,           kscrolldown,    {.i = -1} },
+<<<<<<< HEAD
 >>>>>>> a47f480 (Clipboard suport)
 =======
 	{ MODKEY,               XK_c,           clipcopy,       {.i =  0} },
@@ -237,6 +241,8 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_o,           externalpipe,   {.v = openurlcmd } },
 	{ MODKEY,               XK_p,           externalpipe,   {.v = copyurlcmd } },
 >>>>>>> 3ee7477 (Updated to 0.8.3)
+=======
+>>>>>>> b526a26 (Clipboard suport)
 };
 
 /*
