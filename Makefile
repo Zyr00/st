@@ -39,6 +39,7 @@ dist: clean
 		st-$(VERSION)
 	tar -cf - st-$(VERSION) | gzip > st-$(VERSION).tar.gz
 	rm -rf st-$(VERSION)
+	rm -rf *.o
 
 install: st
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
