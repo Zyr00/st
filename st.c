@@ -2709,16 +2709,22 @@ draw(void)
 
 	drawregion(0, 0, term.col, term.row);
 <<<<<<< HEAD
+<<<<<<< HEAD
 	xdrawcursor(cx, term.c.y, term.line[term.c.y][cx],
 			term.ocx, term.ocy, term.line[term.ocy][term.ocx]);
 	term.ocx = cx;
 	term.ocy = term.c.y;
 =======
+=======
+>>>>>>> 3ee7477 (Updated to 0.8.3)
 	if (term.scr == 0)
 		xdrawcursor(cx, term.c.y, term.line[term.c.y][cx],
 				term.ocx, term.ocy, term.line[term.ocy][term.ocx]);
 	term.ocx = cx, term.ocy = term.c.y;
+<<<<<<< HEAD
 >>>>>>> 2e25363 (Updated)
+=======
+>>>>>>> 3ee7477 (Updated to 0.8.3)
 	xfinishdraw();
 	if (ocx != term.ocx || ocy != term.ocy)
 		xximspot(term.ocx, term.ocy);
