@@ -7,10 +7,14 @@
  */
 static char *font = "Fira Code:pixelsize=10:antialias=true:autohint=true";
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int borderpx = 2;
 =======
 static int borderpx = 4;
 >>>>>>> 673541a (UPDATED)
+=======
+static int borderpx = 2;
+>>>>>>> 448d933 (Config Update)
 /*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
